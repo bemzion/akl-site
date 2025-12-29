@@ -87,9 +87,42 @@ footer {
   border-top: 3px solid #0C4341;
 }
 
-@media (max-width: 600px) {
-  header .container {
+
+
+
+@media (max-width: 768px) {
+
+  header {
     flex-direction: column;
+    text-align: center;
     gap: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px 10px;
+    font-size: 15px;
+  }
+
+  main {
+    margin: 15px;
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .banner img {
+    max-height: 260px;
   }
 }

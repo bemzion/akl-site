@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F2F2F2;
+  color: #2F2F2F;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0C4341;  /* verde petróleo */
+  color: white;
+  padding: 20px 0;
+}
+
+/* centraliza o conteúdo do header */
+header .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* título elegante */
+header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* menu */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* CONTEÚDO CENTRAL */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* TÍTULOS */
+h2 {
+  color: #0C4341;
+  margin-bottom: 8px;
+}
+
+/* PARÁGRAFOS */
+p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+/* LISTAS */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* RODAPÉ DISCRETO */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #E8ECEC;
+  color: #333;
+  font-size: 14px;
+  border-top: 3px solid #0C4341;
+}
+
+@media (max-width: 600px) {
+  header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

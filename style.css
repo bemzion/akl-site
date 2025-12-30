@@ -126,3 +126,21 @@ footer {
     max-height: 260px;
   }
 }
+
+/* garante que tudo fique centralizado dentro do main */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 🔹 banner responsivo */
+.banner {
+  width: 100%;          /* ocupa 100% do espaço do main */
+  height: auto;         /* mantém proporção */
+  border-radius: 10px;
+  display: block;       /* remove espaço embaixo da imagem */
+  object-fit: cover;
+}
